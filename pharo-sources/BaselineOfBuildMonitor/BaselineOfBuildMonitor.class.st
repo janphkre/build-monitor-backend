@@ -25,7 +25,7 @@ BaselineOfBuildMonitor >> baseline: spec [
 						spec
 							loads: #('default');
 							repository: 'github://janphkre/cadmium/src' ].
-			spec package: 'BuildMonitor-REST' with:[spec requires: #('ZincHTTPComponents' 'OpenAPI-Core')].
+			spec package: 'BuildMonitor-REST' with:[spec requires: #('ZincHTTPComponents' 'OpenAPI-Core' 'cadmium')].
 			spec package: 'BuildMonitor-Tests' with:[spec requires: #('core')].
 
 			spec
